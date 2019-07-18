@@ -17,7 +17,7 @@ public class SecondServlet extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 	 	out.println("");
 	 	HttpSession session = req.getSession(false);
-	 	out.println("HttpSession value Read Name::"+session.getAttribute("name"));
+	 	out.println("HttpSession value Read::"+session.getAttribute("name"));
 	}
 
 }
