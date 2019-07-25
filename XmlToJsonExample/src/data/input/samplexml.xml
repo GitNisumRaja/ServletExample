@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <department>
+        <persons>
+            <person id="1">
+                <name>green</name>
+                <role>1</role>
+            </person>
+            <person id="4">
+                <name>white</name>
+                <role>3</role>
+            </person>
+            <person id="3">
+                <name>blue</name>
+                <role>2</role>
+            </person>
+            <person id="2">
+                <name>yellow</name>
+                <role>2</role>
+            </person>
+            <person id="5">
+                <name>black</name>
+                <role>3</role>
+            </person>
+        </persons>
+        <roles>
+            <role id="1">
+                <position>head</position>
+                <salary>20k</salary>
+            </role>
+            <role id="2">
+                <position>manager</position>
+                <salary>18k</salary>
+            </role>
+            <role id="3">
+                <position>employee</position>
+                <salary>15k</salary>
+            </role>
+        </roles>
+    </department>
+</root>
