@@ -1,0 +1,24 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<filter-name>filter1</filter-name>
+  	<filter-class>com.insan.sample.filter.SimpleFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>filter1</filter-name>
+  	<url-pattern>/serv</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+  	<servlet-name>servlet1</servlet-name>
+  	<servlet-class>com.insan.sample.filter.SimpleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servlet1</servlet-name>
+  	<url-pattern>/serv</url-pattern>
+  </servlet-mapping>
+</web-app>
