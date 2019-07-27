@@ -18,7 +18,7 @@ public class SimpleServlet extends HttpServlet {
 		
 		resp.setContentType("text/html");
 		PrintWriter out = resp.getWriter();
-		out.println("Welcome to Servlet page");
+		out.println("Welcome to Servlet page after filter");
 	}
 
 }
