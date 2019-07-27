@@ -27,7 +27,7 @@ public class SimpleFilter implements Filter {
 		
 		String str = config.getInitParameter("construction");
 		
-		if(str.equals("yes")) {
+		if(str.equals("no")) {
 			out.println("Site is in Construction");
 		}else {
 			chain.doFilter(request, response);
