@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.insan.sample.filter</groupId>
-  <artifactId>Serv07_FilterAuthorizationDemo</artifactId>
+  <artifactId>Serv08_ServletFilterConfigDemo</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Serv07_FilterAuthorizationDemo Maven Webapp</name>
+  <name>Serv08_ServletFilterConfigDemo Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -21,10 +21,9 @@
     <version>4.0.1</version>
     <scope>provided</scope>
 </dependency>
-
     
   </dependencies>
   <build>
-    <finalName>Serv07_FilterAuthorizationDemo</finalName>
+    <finalName>Serv08_ServletFilterConfigDemo</finalName>
   </build>
 </project>
